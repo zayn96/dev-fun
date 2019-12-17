@@ -18,9 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::post('register', 'API\RegisterController@register');
 Route::post('login', 'API\RegisterController@login');
-//Route::resource('transactions', 'API\TransactionsController');
-Route::middleware('auth:api')->group( function () {
-    Route::resource('transactions', 'API\TransactionsController');
-});
 
-// Route::apiResource('/transaction','API\TransactionsController');
+
+Route::middleware('auth:api')->group( function () {
+    Route::get('/transactions', 'API\TransactionsController@getTransactions');
+    Route::get('/transactions/{id}', 'API\TransactionsController@getTransaction');
+    Route::post('/transactions', 'API\TransactionsController@postNewTransaction');
+});

@@ -17,9 +17,8 @@ class TransactionsController extends BaseController
     /**
      * @return \Illuminate\Http\Response
      *
-     *
      */
-    public function index()
+    public function getTransactions()
     {
         $transactions =Transaction::all();
 
@@ -31,11 +30,11 @@ class TransactionsController extends BaseController
      * @return \Illuminate\Http\JsonResponse
      *
      */
-    public function store(Request $request)
+    public function postNewTransaction(Request $request)
     {
         $request->validate([
             'amount'=>'required',
-            'eSign'=>'required',
+           'eSign'=>'required',
             'mpesa_receipt_no'=>'required',
             'phone_number'=>'required',
             'username'=>'required',
@@ -46,7 +45,7 @@ class TransactionsController extends BaseController
 
         return response()->json([
             'code'=>'201',
-            'data'=>'transaction',
+            'data'=>'transaction successfully saved',
         ]);
     }
 
@@ -56,7 +55,7 @@ class TransactionsController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function getTransaction( $id )
     {
         $transaction = Transaction::find($id);
 

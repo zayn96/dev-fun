@@ -37,14 +37,14 @@
         $success['token'] =  $user->createToken('MyApp')->accessToken;
         $success['name'] =  $user->name;
 
-        return $this->sendResponse($success, 'User register successfully.');
+        return $this->sendResponse($success, 'User registered successfully.');
     }
 
-    /**
-     * Login api
-     *
-     * @return \Illuminate\Http\Response
-     */
+        /**
+         * @param Request $request
+         * @return \Illuminate\Http\Response
+         *
+         */
     public function login(Request $request)
     {
         if(Auth::attempt(['email' => $request->email, 'password' => $request->password])){
