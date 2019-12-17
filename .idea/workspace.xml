@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee62f30c-c58a-4e49-814f-05e425923267" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TransactionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_06_063453_create_transactions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_06_063453_create_transactions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/layouts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/layouts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dev.fun.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,8 +128,11 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1USy9LS5HOMYhrXQg8e8CrFn77Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ilearn" />
@@ -266,7 +258,7 @@
       <workItem from="1575535537938" duration="36556000" />
       <workItem from="1575894199066" duration="24459000" />
       <workItem from="1576162671464" duration="21298000" />
-      <workItem from="1576496721127" duration="18408000" />
+      <workItem from="1576496721127" duration="19121000" />
     </task>
     <servers />
   </component>
@@ -285,5 +277,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
